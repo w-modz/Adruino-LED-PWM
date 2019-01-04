@@ -40,4 +40,9 @@ void loop() {
     }
     delay(50);
   }
+  else {
+    pwmValue = 0;
+    pwmStep = 5;
+    analogWrite(LED, pwmValue);
+  }
 }
